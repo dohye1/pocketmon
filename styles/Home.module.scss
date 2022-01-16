@@ -1,0 +1,25 @@
+.container {
+  padding: 0 2rem;
+  display: grid;
+  grid-auto-rows: minmax(600px, auto);
+  grid-template-columns: repeat(auto-fill, minmax(400px, auto));
+  justify-items: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(135, 179, 135);
+  text-align: center;
+}
+
+.item {
+  width: 300px;
+  height: 500px;
+  border-radius: 3px;
+  border: 1px solid rgb(161, 161, 161);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
